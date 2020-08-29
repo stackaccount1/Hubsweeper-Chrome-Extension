@@ -1,0 +1,20 @@
+  {
+    "name": "Hubsweeper",
+    "version": "1.0",
+    "description": "Removes Adult Entertainment Sites From History",
+    "permissions": ["declarativeContent","browsingData","webNavigation","history","storage"],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "page_action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "Hicon2.jpg"
+      }
+    },
+    "icons": {
+      "16": "get_started16.png"
+    },
+    "manifest_version": 2
+  }
